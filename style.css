@@ -1,0 +1,138 @@
+.top-div {
+    display: flex;
+    font-size: small; 
+    margin-left: 7%;
+}
+
+.top-div img {
+    width: 20px;
+    height: 20px;
+}
+
+.top-div a{
+    text-decoration: none;
+    color: black;
+    margin-right:3px;
+ 
+}
+
+.container-fluid {
+    background-color: #15d7c2;
+    margin-bottom: -7px;
+}
+
+#logoid {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#logoid img {
+    height: 80px;
+    width: 80px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link img {
+    width: 20px;
+    height: 20px;
+    margin-top: px;
+}
+
+.right-top {
+    display: flex;
+    top: 51x;
+}
+
+.right-top a {
+    display: flex;
+    padding: 8.5px;
+}
+
+.search-form {
+    right: 200px;
+    top: 200px;
+}
+
+.search-field {
+    background-color: transparent;
+    background-image: url(static/search.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: none;
+    height: 40px;
+    margin: 3px 5px;
+    padding: 0 0 0 34px;
+    position: relative;
+    -webkit-transition: width 400ms ease, background 400ms ease;
+    transition: width 400ms ease, background 400ms ease;
+    width: 50px;
+    cursor: pointer;
+}
+
+.search-field:focus {
+    background-color: #f9f5f5;
+    border: 2px solid #ecd211;
+    cursor: text;
+    outline: 0;
+    width: 190px;
+    color: #fff;
+}
+
+
+#customCarousel{
+    height: rem; 
+    position:relative; 
+    box-shadow: 0px 10px 15px rgba(20, 18, 18, 0.3);
+}
+#play-button{
+    margin-top:14%; 
+    margin-bottom: 5%; 
+    height: 50px; 
+    width: 50px;
+}
+
+.group-button{
+    position: absolute; 
+    text-align: right; 
+    margin-top: -20px ;
+    right: 8%;  
+    width: 100%
+}
+.group-button button{
+    background-color: #15d7c2; 
+    border: none;
+}
+#fixed-dot{
+    position: absolute; 
+    margin-top: 16%; 
+    margin-left: 79%;
+}
+.form-div {
+    box-shadow: 0px 10px 35px rgba(20, 18, 18, 0.3);
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.book {
+    color: black;
+    border-bottom: 2px solid cyan;
+}
+
+.appointment {
+    color: cyan;
+}
+
+.form-div input {
+    border: 1px solid cyan;
+}
+
+.form-div select {
+    border: 1px solid cyan;
+}
+
